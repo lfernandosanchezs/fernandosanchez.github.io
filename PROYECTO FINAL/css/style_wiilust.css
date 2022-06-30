@@ -1,0 +1,68 @@
+.flex_header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0,0%,0%,1.00);
+    color: hsla(0,0%,100%,1.00);
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 350px;
+}
+.flex_container-nav {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: large;
+    text-align: center;
+}
+.flex_container-main {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: hsla(0,0%,0%,1.00);
+}
+.flex_container-main section {
+    margin: 15px;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+section img {
+    width: 450PX;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section a img:hover {
+    border-radius: 70%;
+    border: 0px solid hsla(0,0%,100%,1.00);
+}
+.flex_container-main section p {
+    color: hsla(0,0%,100%,1.00);
+    text-align: justify;
+    margin: auto;
+    padding: auto;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    display: flex;
+}
